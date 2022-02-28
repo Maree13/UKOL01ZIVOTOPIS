@@ -4,23 +4,46 @@ h3 {
 }
 .mojafoto {
   width: 20%;
-  border-color: whitesmoke;
-  position: sticky;
   opacity: 0.8;
   border-radius: 4%;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-bottom: 20px;
 }
 h1 {
-  padding-top: 5%;
+  padding-top: 3%;
   font-size: 45px;
+  font-weight: 200;
 }
 
 h2 {
   text-align: center;
 }
+
 header {
   margin: 0;
   text-align: center;
   background-color: #9e3717;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+/*nefunguje
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+*/
+
+.years {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .odkazy {
@@ -29,22 +52,28 @@ header {
   flex-direction: row;
   padding-right: 7%;
   justify-content: space-between;
-  padding-bottom: 3%;
+  padding-bottom: 0;
   font-size: 20px;
 }
 
 nav {
-  color: #282425;
+  padding-top: 0.5%;
 }
 body {
   background-color: whitesmoke;
   color: #282425;
+  font-family: "Lora", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .skusenosti,
 .vzdelanie,
 .jazyky {
   margin-top: 50px;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
 }
 
 .tabulka {
@@ -52,7 +81,6 @@ body {
   margin-right: auto;
   margin-bottom: 40px;
   text-align: center;
-  text-decoration: underline;
 }
 
 th,
