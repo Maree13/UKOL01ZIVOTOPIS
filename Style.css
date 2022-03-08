@@ -50,15 +50,27 @@ h2 {
   display: flex;
   list-style-type: none;
   flex-direction: row;
-  padding-right: 7%;
-  justify-content: space-between;
+  padding-right: 0;
+  justify-content: space-evenly;
   padding-bottom: 0;
+}
+
+button {
   font-size: 20px;
+  border: none;
+  background-color: #9e3717;
+  text-decoration: none;
 }
 
 nav {
-  padding-top: 0.5%;
+  padding-top: 2%;
 }
+
+.fa {
+  color: #282425;
+  text-decoration-line: none;
+}
+
 body {
   background-color: whitesmoke;
   color: #282425;
